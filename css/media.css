@@ -1,0 +1,127 @@
+ /* Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) { 
+    header{ 
+        padding: 0 0;
+      }
+      .logo{
+        width: 180px;
+      }
+      .banner{
+        padding: 20px 0 60px;
+       }
+       .b_text{
+        margin-top: 20px;
+        text-align: center;
+       }
+       .b_black {
+        line-height: 24px;
+        padding: 0px 20px;
+      }
+       .b_h1 {
+        margin: 10px 0 10px;
+        font-weight: 700;
+        font-size: 35px;
+        line-height: 35px;
+        color: #000000;
+        /* padding-right: 100px; */
+      }
+       .b_img {
+        padding: 0 0px;
+      }
+ }
+
+ /* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) and (max-width: 767.98px) { 
+
+    header{ 
+        padding: 0 0;
+      }
+    .menu ul li a{
+        padding: 0 10px !important;
+        margin-bottom: 10px;}
+        .banner{
+          padding: 20px 0 60px;
+         }
+         .b_text{
+          margin-top: 30px;
+          text-align: center;
+         }
+         .b_black {
+          line-height: 24px;
+          padding: 0px 50px;
+        }
+         .b_h1 {
+          margin: 10px 0 10px;
+          font-weight: 700;
+          font-size: 25px;
+          line-height: 35px;
+          color: #000000;
+          /* padding-right: 100px; */
+        }
+         .b_img {
+          padding: 0 100px;
+        }
+        .feature {
+          padding-bottom: 60px;
+      }
+ }
+
+ /* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991.98px) { 
+    .menu ul li a{
+        padding: 0 10px !important;
+        margin-bottom: 10px;}
+
+        .banner{
+          padding: 20px 0 60px;
+         }
+         .b_text{
+          margin-top: 30px;
+          text-align: center;
+         }
+         .b_black {
+          line-height: 24px;
+          padding: 0px 50px;
+        }
+         .b_h1 {
+          margin: 10px 0 10px;
+          font-weight: 700;
+          font-size: 35px;
+          line-height: 35px;
+          color: #000000;
+          /* padding-right: 100px; */
+        }
+         .b_img {
+          padding: 0 100px;
+        }
+        .feature {
+          padding-bottom: 80px;
+      }
+ }
+
+
+ /* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) and (max-width: 1199.98px) { 
+  .b_h1 {
+
+    font-size: 40px;
+    padding-right: 30px;
+    
+    
+}
+ }
+
+ /* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) and (max-width:1400px) { 
+  .b_h1 {
+   
+    padding-right: 40px;
+}
+ }
+ /* extra extra large */
+ @media (min-width: 1400px)
+ {
+
+ }
+
+
